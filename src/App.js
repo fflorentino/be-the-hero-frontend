@@ -1,11 +1,16 @@
 import React from 'react';
 
-import Header from './Header';
+import './global.css';
+
+import Logon from './pages/Logon';
 
 function App() {
+
   return (
-    <Header />
+    <Logon />
   );
 }
 
 export default App;
+
+
