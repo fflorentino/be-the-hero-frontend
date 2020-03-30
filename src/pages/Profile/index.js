@@ -41,6 +41,7 @@ export default function Profile(){
         localStorage.clear();
         history.push('/');
     }
+    const componentCustom = ``;
 
     return(
         <div className="profile-container">
